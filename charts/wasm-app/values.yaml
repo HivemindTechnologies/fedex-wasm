@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: https://hub.docker.com/repository/docker/fabriziowho/wasm-app:latest
+  repository: https://hub.docker.com/repository/docker/fabriziowho/wasm-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
